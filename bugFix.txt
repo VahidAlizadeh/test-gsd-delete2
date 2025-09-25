@@ -1,1 +1,1 @@
-aljfhkja's fhasjf'; aksfjka'
+Fixed an issue where the application would crash when processing empty input files. The bug was caused by a null pointer dereference in the input parser. Added a check to ensure the input file is not empty before parsing, preventing the crash and allowing the application to handle empty files gracefully.
